@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/content/daka",
+    "pages/home/content/qingjia",
+    "pages/home/content/dengji",
+    "pages/home/content/dengji_detail",
+    "pages/home/content/wenti",
+    "pages/login/sign",
+    "pages/login/log",
+    "pages/login/foget",
+    "pages/mydata/mydata",
+    "pages/mydata/content/shichang",
+    "pages/mydata/content/jilu",
+    "pages/mydata/content/shichang_detail",
+    "pages/mydata/content/fankui",
+    "pages/mydata/content/shezhi",
+    "pages/mydata/content/paiban",
+    "pages/mydata/content/guestdata",
+    "pages/index/index",
+    "pages/liaison/liaison",
+    "pages/message/message",
+    "pages/message/chatbox"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "平安万里",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 100,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mydata/mydata",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "测试-"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}

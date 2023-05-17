@@ -1,0 +1,138 @@
+
+.v1{
+  display: block;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  background: #356363;
+  /* 换图片 */
+}
+/* 白色区域 */
+.v1 .v2{
+  position: relative;
+  margin-top: 150rpx;
+  left: 100rpx; 
+  width: 545rpx;
+  height: 1000rpx;
+  background: #FFFFFF;
+  border-radius: 50rpx;
+}
+/* 白色区域内的登录文本 */
+.v1 .v2 .dltext{
+  margin-top: 50rpx;
+  position: absolute;
+  margin-left:80rpx;
+  width: 150rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  font-family: Helvetica;
+  color: #000000;
+  line-height: 100rpx;
+  letter-spacing: 2rpx;
+}
+/* 用户名图片+输入框+下划线的父容器view */
+.v1 .v2 .nameCs{
+  margin-top: 150rpx;
+  margin-left: 35rpx;
+  position: absolute;
+  display: flex;
+  width:450rpx ;
+  height: 80rpx ;
+  border-bottom: 3rpx solid rgb(58, 57, 57);
+}
+/* 手机号输入框 */
+.v1 .v2 .nameCs input{
+  width: 200rpx;
+  font-size: 25rpx ;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+/* 手机图标+输入框+小眼睛图标+下划线父容器view */
+.v1 .v2 .phoneCs{
+  margin-top: 300rpx;
+  margin-left: 35rpx;
+  position: absolute;
+  display: flex;
+  width:450rpx ;
+  height: 80rpx ;
+  border-bottom: 3rpx solid rgb(58, 57, 57);
+}
+/* 手机输入框 */
+.v1 .v2 .phoneCs input{
+  width: 200rpx;
+  font-size: 25rpx ;
+  margin-top: 15rpx;
+  margin-left: 30rpx;
+}
+/* 身份证图标+输入框+小眼睛图标+下划线父容器view */
+.v1 .v2 .idnumCs{
+  margin-top: 450rpx;
+  margin-left: 35rpx;
+  position: absolute;
+  display: flex;
+  width:450rpx ;
+  height: 80rpx ;
+  border-bottom: 3rpx solid rgb(58, 57, 57);
+}
+/* 身份证输入框 */
+.v1 .v2 .idnumCs input{
+  width: 200rpx;
+  font-size: 25rpx ;
+  margin-top: 15rpx;
+  margin-left: 30rpx;
+}
+/* 密码图标+输入框+下划线父容器view */
+.v1 .v2 .passwordCs{
+  margin-top: 600rpx;
+  margin-left: 35rpx;
+  position: absolute;
+  display: flex;
+  width:450rpx ;
+  height: 80rpx ;
+  border-bottom: 3rpx solid rgb(58, 57, 57);
+}
+/* 密码输入框 */
+.v1 .v2 .passwordCs input{
+  width: 200rpx;
+  font-size: 25rpx ;
+  margin-top: 15rpx;
+  margin-left: 30rpx;
+}
+/* 注册按钮容器view */
+.v1 .v2 .zhuce{
+  width: 350rpx;
+  height: 50rpx;
+  position: absolute;
+  margin-top: 800rpx;
+  margin-left: 85rpx;
+}
+/* 注册按钮 */
+.v1 .v2 .zhuce button{
+  padding: 0rpx;
+  line-height: 50rpx;
+  font-size: 25rpx;
+  width: 100%;
+  height: 100%;
+  border-radius: 30rpx;
+}
+/* 提示文本 */
+.v3{
+  padding-left: 100rpx;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 60rpx;
+  padding-top: 50rpx;
+}
+.v3 .line{
+  margin-left: 5rpx;
+  margin-top: 18rpx;
+  width: 120rpx;
+  height: 3rpx;
+ background-color:#FFFFFF;
+}
+.v3 .lText{
+  color: #FFFFFF;
+  font-size: 25rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "本周排班",
+  "usingComponents": {
+    "wyb-table": "/components/wyb-table/wyb-table"
+  }
+}

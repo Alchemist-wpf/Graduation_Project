@@ -1,0 +1,1 @@
+<view><uni-calendar vue-id="c471d8e6-1" insert="{{true}}" lunar="{{true}}" date="{{date}}" selected="{{selected}}" start-date="2022-5-2" end-date="2035-5-20" data-event-opts="{{[['^change',[['change']]]]}}" bind:change="__e" bind:__l="__l"></uni-calendar></view>

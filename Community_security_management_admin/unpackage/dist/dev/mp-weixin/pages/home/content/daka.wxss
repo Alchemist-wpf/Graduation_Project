@@ -1,0 +1,8 @@
+
+.button{
+	margin: 5rpx auto;
+	padding: 0;
+	width: 25%;
+	font-size: 30rpx;
+}
+

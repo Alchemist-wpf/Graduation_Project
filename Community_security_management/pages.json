@@ -1,0 +1,120 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"lazyCodeLoading":"requiredComponents",
+	// "easycom": {
+	// 		"autoscan": true,
+	// 		"custom": {
+	// 			// uni-ui 规则如下配置
+	// 			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	// 		}
+	// 	},
+	"pages": [
+	{
+		"path": "pages/home/home"
+	},{
+		"path": "pages/home/content/daka",
+		"style": {
+			"navigationBarTitleText": "考勤打卡"
+		}
+	},{
+		"path": "pages/home/content/qingjia",
+		"style": {
+			"navigationBarTitleText": "请假审批"
+		}
+	},{
+		"path": "pages/home/content/dengji",
+		"style": {
+			"navigationBarTitleText": "来客登记"
+		}
+	},{
+		"path": "pages/home/content/wenti",
+		"style": {
+			"navigationBarTitleText": "社区问题"
+		}
+	},{
+		"path": "pages/login/sign"
+	},{
+		"path": "pages/login/log"
+	},{
+		"path": "pages/login/foget"
+	},{
+		"path": "pages/mydata/mydata"	
+	},{
+		"path": "pages/mydata/content/shichang"	,
+		"style": {
+			"navigationBarTitleText": "考勤时长"
+		}
+	},{
+		"path": "pages/mydata/content/jilu"	,
+		"style": {
+			"navigationBarTitleText": "请假记录"
+		}
+	},{
+		"path": "pages/mydata/content/fankui",
+		"style": {
+			"navigationBarTitleText": "我的反馈"
+		}
+	},{
+		"path": "pages/mydata/content/shezhi",
+		"style": {
+			"navigationBarTitleText": "个人设置"
+		}
+	},{
+		"path": "pages/mydata/content/paiban",
+		"style": {
+			"navigationBarTitleText": "我的排班"
+		}
+	},{
+		"path": "pages/mydata/content/guestdata",
+		"style": {
+			"navigationBarTitleText": "客人信息"
+		}
+	},{
+		"path": "pages/index/index"
+		
+	},{
+		"path": "pages/liaison/liaison",
+		"style": {
+			"navigationBarTitleText": "通讯录"
+		}
+		
+	},{
+		"path": "pages/message/message"
+	},{
+		"path": "pages/message/chatbox"
+	}],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath":"pages/home/home",
+			"text":"首页"
+		},
+		// {
+		// 	"pagePath":"pages/message/message",
+		// 	"text":"消息"
+		// },{
+		// 	"pagePath":"pages/liaison/liaison",
+		// 	"text":"通讯录"
+		// },
+		{
+			"pagePath":"pages/mydata/mydata",
+			"text":"我的"
+		}]
+	},
+	"globalStyle":{
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "平安万里",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true,
+		"onReachBottomDistance": 100,
+		"backgroundTextStyle": "dark",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

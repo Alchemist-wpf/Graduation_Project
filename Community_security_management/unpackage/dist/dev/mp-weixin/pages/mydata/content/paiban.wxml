@@ -1,0 +1,1 @@
+<wyb-table class="vue-ref" vue-id="41144ba9-1" headers="{{headers}}" contents="{{contents}}" height="600rpx" url-col="{{urlCol}}" data-ref="table" bind:__l="__l"></wyb-table>

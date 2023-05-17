@@ -1,0 +1,1 @@
+<uni-list vue-id="15da74f4-1" bind:__l="__l" vue-slots="{{['default']}}"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><uni-list-item vue-id="{{('15da74f4-2-'+index)+','+('15da74f4-1')}}" note="{{'提交时间:'+item.time}}" title="{{'提交问题:'+item.problem}}" bind:__l="__l"></uni-list-item></block></uni-list>
